@@ -8,3 +8,5 @@ def join_orders_customers(orders_df, customers_df):
 
 def count_orders_state(joined_df):
    return joined_df.groupBy('state').count()
+
+## adding new feature in data manipulation-uner lib
